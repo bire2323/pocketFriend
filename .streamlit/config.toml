@@ -1,0 +1,19 @@
+# PocketFriend base theme.
+#
+# These values only set Streamlit's own colour variables. The rest of the visual
+# system (spacing, radii, typography, component styling) lives in
+# app/ui/theme.py so it stays in one place. No fonts, CDNs or network calls.
+
+[theme]
+base = "light"
+primaryColor = "#A97C0B"
+backgroundColor = "#F6F9FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1A1F36"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
